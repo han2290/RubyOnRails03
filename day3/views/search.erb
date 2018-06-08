@@ -1,0 +1,23 @@
+검색창
+
+<form action = 'https://www.google.co.kr/search'>
+    구글    <input type="text" name = "q">
+    <input type='submit' value = "검색">
+</form>
+
+<form action = 'https://search.naver.com/search.naver'>
+    네이버    :<input type="text" name = "query">
+    <input type='submit'  value = "검색">
+</form>
+
+<form method="POST">
+    <input type="hidden" name="engine" value="naver">
+    <input type="text" name="query" placeholder="네이버 검색">
+    <input type="submit" value="검색">
+</form>
+
+<form method="POST">
+    <input type="hidden" name="engine" value="google">
+    <input type="text" name="q" placeholder="구글 검색">
+    <input type="submit" value="검색">
+</form>
